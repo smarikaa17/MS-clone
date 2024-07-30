@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
-</head>
-<body>
-    <div class="contain">
-        <div class="text-white bg-red-300">
-            hey
-            </div>
-</body>
+    <title>Microsoft - Cloud, Computers, Apps &amp; Gaming</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body>
+    <div class="navbar flex justify-between items-center p-4">
+      <div class="flex justify-center items-center md:order-2">
+        <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+          <div class="line h-0.5 w-6 my-1 bg-black"></div>
+        </div>
+        <div class="search md:hidden">searchicon</div>
+      </div>
+
+      <div class="logo text-center flex  md:order-1 ">
+        <div>Microsoft</div>
+
+        <div class="features absolutec w-fit md:static md:w-auto  bg-gray-300 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0">
+            <div class="ftritems">Microsoft 365</div>
+            <div class="ftritems">Office</div>
+             <div class="ftritems">Windows</div>
+             <div class="ftritems">Surface</div>
+             <div class="ftritems">Xbox</div>
+             <div class="ftritems">Support</div>
+
+        </div>
+      </div>
+      <div class="cart text-center md:order-3 flex">
+        <div class="search hidden md:block ">searchicon</div>
+        <div>  
+            Cart Account
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
