@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body>
+    <div class="container mx-auto">
     <div class="navbar flex justify-between items-center p-4">
       <div class="flex justify-center items-center md:order-2">
         <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
@@ -19,25 +20,42 @@
         <div class="search md:hidden">searchicon</div>
       </div>
 
-      <div class="logo text-center flex  md:order-1 ">
-        <div>Microsoft</div>
+      <div class="logo text-center flex md:order-1">
+        <div class="p-4 "><img src="../em/logo.webp" /></div>
 
-        <div class="features absolutec w-fit md:static md:w-auto  bg-gray-300 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0">
-            <div class="ftritems">Microsoft 365</div>
-            <div class="ftritems">Office</div>
-             <div class="ftritems">Windows</div>
-             <div class="ftritems">Surface</div>
-             <div class="ftritems">Xbox</div>
-             <div class="ftritems">Support</div>
-
+        <div
+          class="features absolutec w-fit md:static md:w-auto bg-gray-300 md:bg-white inset-0 md:flex md:mx-4 md:space-x-2 -translate-x-96 md:translate-x-0"
+        >
+          <div class="ftritems">Microsoft 365</div>
+          <div class="ftritems">Office</div>
+          <div class="ftritems">Windows</div>
+          <div class="ftritems">Surface</div>
+          <div class="ftritems">Xbox</div>
+          <div class="ftritems">Support</div>
         </div>
       </div>
       <div class="cart text-center md:order-3 flex">
-        <div class="search hidden md:block ">searchicon</div>
-        <div>  
-            Cart Account
-        </div>
+        <div class="search hidden md:block">All Microsoft Searchicon</div>
+        <div>Cart Account</div>
       </div>
     </div>
+    <div class="slider flex flex-col-reverse md:flex-row bg-[#c9cfda] mx:2">
+      <div
+        class="left flex flex-col justify-center items-center md:items-baseline py-12"
+      >
+        <h1 class="text-2xl font-medium md:text-4xl mx-4">Surface Laptop Studio 2</h1>
+        <p class="w-3/4 mx-4 text-center md:text-left">
+          Save up to $59 on the most flexible 2-in-1 out there with Microsoft
+          365, a protection plan, and 20% off select accessories.
+        </p>
+        <button class="text-white bg-black px-4 py-2 mx-4 my-6 font-bold">
+          Shop Now
+        </button>
+      </div>
+      <div class="right">
+        <img class="w-50 " src="../em/hl.avif" alt="image" />
+      </div>
+    </div>
+  </div>
   </body>
 </html>
